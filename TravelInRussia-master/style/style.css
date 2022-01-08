@@ -85,6 +85,14 @@ ho-ho-ton-main.zip@font-face {
     background-repeat: no-repeat;
 }
 
+.forMusic {
+    height: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+
 .header__lang {
     font-size: 26px;
     line-height: 23px;
