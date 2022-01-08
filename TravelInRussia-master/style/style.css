@@ -210,6 +210,7 @@ ho-ho-ton-main.zip@font-face {
 
 .photo-grid__element {
     width: calc((1184px - (3*16px))/4);
+    border-radius: 20%;
 }
 
 .places {
