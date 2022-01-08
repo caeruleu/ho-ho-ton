@@ -22,6 +22,32 @@ ho-ho-ton-main.zip@font-face {
     font-weight: 900;
 }
 
+@keyframes snow2{
+    0%{background-position: 0 0, 0 0;}
+    100%{background-position: 10% 600px, 10% 600px;}
+}
+@keyframes snow1{
+    from{background-position: 0 -300px;}
+    20% {background-position: 20% -100px;}
+    40% {background-position: 30% 100px;}
+    to{background-position: 20% 700px;}
+}
+
+.snow1{
+    background-image: url("../images/snow1.png");
+    position:absolute;
+    width: 100%;
+    height:8800px;
+    animation: snow1 18s linear infinite;    
+}
+.snow2{
+    background-image: url("../images/snow2.png"),url("../images/snow3.png");
+    animation: snow2 10s linear infinite;
+    width: 100%;
+    height:8800px;
+    position:absolute;
+}
+
 .banner {
     width: 100%;
     margin-top: 30px;
